@@ -3,7 +3,7 @@ import org.junit.jupiter.api.*;
 class GerenciadorProdutoTeste {
 
     @Test
-    public void testeListarProdutos(){
+    public void testeAdicionarEListarProdutos(){
         GerenciadorProduto gerenciadorProduto = new GerenciadorProduto();
         gerenciadorProduto.adicionar("1", "Manteiga");
         gerenciadorProduto.adicionar("2", "Leite");
